@@ -13,7 +13,11 @@ function pressIt(){
      }
      });
 }
-function
+function submitIt() {
+  $("form").on("submit", function(){
+    alert()
+  })
+}
 $(document).ready(function(){
 // call functions here
   getIt();
