@@ -12,7 +12,7 @@ function pressIt(){
        alert("You has pressed the G key");
      }
      });
-}
+}fun
 $(document).ready(function(){
 // call functions here
   getIt();
