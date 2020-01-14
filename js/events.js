@@ -12,8 +12,8 @@ $(document).ready(function(){
 // call functions here
   $("p").on("click", getIt);
   $("img").on("load", frameIt);
-  $("").on("keydown", function(event){
-     if (event.which == 71){
+  $("").on("keydown", function(key){
+     if (key.which == 71){
       pressIt();
      }
      });
