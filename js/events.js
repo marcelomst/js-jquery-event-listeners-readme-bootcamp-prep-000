@@ -10,7 +10,7 @@ function pressIt(){
 }
 $(document).ready(function(){
 // call functions here
-  $("p").on("click", getIt);
+
   $("img").on("load", frameIt);
   $("").on("keydown", function(key){
      if (key.which == 71){
